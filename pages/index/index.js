@@ -115,5 +115,9 @@ Page({
     })
     this.setData({ todos: remains, logs: logs })
     this.save()
+  },
+
+  onShareAppMessage(){
+    
   }
 })
